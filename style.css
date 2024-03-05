@@ -1,0 +1,20 @@
+.living-button {
+  width: 500px;
+  padding: 60px;
+  border: 3px solid;
+  border-radius: 30px;
+  margin: 100px auto;
+  text-align: center;
+  font-family: "gill sans mt";
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  font-size: 48px;
+  box-shadow: 2px 2px;
+  transition: 250ms all;
+  cursor: pointer;
+}
+
+.living-button:hover {
+  box-shadow: 12px 12px;
+  transform: translate(-10px, -10px);
+}
